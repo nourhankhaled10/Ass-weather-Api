@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+<!-- Section Nav bar -->
+<div class="weather ">
+    <div class="row">
+        <div class="col-md-2 container pt-5">
+            <div class="icon-weather  ">
+                <i class="fa-solid fa-cloud-bolt text-info  mx-5 ">
+                    <h3 class="fs-6  pt-3">weather forecast</h3>
+  </i>
+  </div>
+   </div>
+    <div class="col-md-3"></div>
+
+    <div class="col-md-6">
+ <ul class="nav container-sm justify-content-evenly  m-auto pt-5 fs-5 ">
+        <li class="nav-item1  ">
+          <a class="nav-link active text-light" href="#">Home</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link text-light" href="#">News</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#">Live cameras </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-light" href="#">Contact </a>
+          </li>
+ 
+      </ul>
+    </div>
+    </div>
+</div>
+<!-- end seection nav bar  -->
+
+
+
+<!-- start section content weather  -->
+
+<div class="content-weather ">
+
+<img src="imgs/pexels-chris-f-1465088.jpg" class="w-100 vh-100" alt="">
+
+
+<div class="card  ">
+<div class="form-search ">
+    <input type="text" id="search" class="form-control rounded-5 mt-3 mx-auto w-75 mt-2" placeholder="Find Your location">
+  </div>
+   
+    <div class="row ">
+    <div class="card1 col-md-4 style="width: 50rem">
+     
+      <div id="today-data " class="d-flex justify-content-between py-2 px-3 text-light rounded-start fs-4">
+        <p id="today-data-day-name" class="my-auto">Sunday</p>
+        <span>
+          <span id="today-data-day-number" class="my-auto">30</span>
+          <span id="today-data-month" class="my-auto">may</span>
+  
+        </span>
+    </div>
+    <div id="today" class="item-content text-start px-3 py-3 pt-5 text-light">
+      <p id="today-location" class="fs-4">Cairo</p>
+      <div class="d-flex justify-content-between align-items-center">
+        <span class="fs-1 fw-bolder">
+          <span id="today-temp"> 20</span>
+          <span><sup>o</sup>C</span>
+        </span>
+        <img id="today-conditon-img" src="imgs/176.png" alt="">
+      </div>
+      <p id="today-conditon-text" class="fs-6 text-light-blue ">Sunny</p>
+    </div>
+
+    <div class="item-footer d-flex text-light p-3 ">
+      <div class="d-flex ms-3">
+        <img src="imgs/icon-umberella.png" class="footer-icon me-2" alt="">
+        <p id="percentage">20</p>
+      </div>
+     
+      <div class="d-flex ms-5 pt-2">
+        <img src="imgs/icon-wind.png" class="footer-icon me-2 " alt="">
+        <p id="wind" class="text-white">30 km/h</p>
+      </div>
+    </div>
+    </div>
+  
+
+
+    <!-- Data Section 2 -->
+
+    <div class="item col-md-4 m-0 ">
+      <div id="tomorrow-data" class="py-2 text-center  text-dark">
+        <p class="next_day_name my-auto text-white fs-5" >Friday </p>
+      </div>
+      <div id="tomorrow" class="item-content text-start text-light p-3 text-center pt-5">
+<img  class="next-condition-img" src="imgs/113.png" alt="">
+<h3>
+  <span class="next-max-temp"></span>
+          <span><sup>o</sup>C</span>
+</h3>
+<h5 class="text-info pt-2">
+  <span class="next-min-temp">15</span>
+          <span><sup>o</sup>C</span>
+</h5>
+<p class="next-condition-text fs-5 pt-2 text-danger">Partly cloudy</p>
+      </div>
+      </div>
+      
+
+
+      
+ 
+<!-- Data Section 3 -->
+
+<div class="item col-md-4 m-0 ">
+  <div id="tomorrow-data" class="py-2 text-center  text-dark">
+    <p class="next_day_name my-auto text-white fs-5" >Friday </p>
+  </div>
+  <div id="tomorrow" class="item-content text-start text-light p-3 text-center pt-5">
+<img  class="next-condition-img" src="imgs/113.png" alt="">
+<h3>
+<span class="next-max-temp"></span>
+      <span><sup>o</sup>C</span>
+</h3>
+<h5 class="text-info  pt-2">
+<span class="next-min-temp">15</span>
+      <span><sup>o</sup>C</span>
+</h5>
+<p class="next-condition-text fs-5 text-danger pt-2">Partly cloudy</p>
+  </div>
+  </div>
+
+      
+ 
+    
+    
+  </div>
+</div>
+</div>
+<!-- End section content weather  -->
+
+
+
+<div class="Content-body3 ">
+  <div class="div container">
+  <div class="row ">
+    <div class="col-md-7 ">
+<input type="text" class="form-control rounded-5 mt-5 ms-5" placeholder="Enter Your Email To subscribe">
+<!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+
+
+<p class="text-white pt-5 ms-5">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+    </div>
+    <div class="col-md-2">
+
+    </div>
+
+    <div class="col-md-3  ">
+      <div class=" icon-social text-info  pt-5 d-flex justify-content-evenly">
+        <div class="social-border ">
+        <i class="fa-brands fa-facebook"></i></div>
+        <div class="social-border">
+        <i class="fa-brands fa-twitter"></i></div>
+        <div class="social-border">
+
+        <i class="fa-brands fa-google"></i></div>
+        <div class="social-border">
+
+        <i class="fa-brands fa-pinterest"></i></div>
+
+      </div>
+
+    </div>
+  </div>
+
+</div>
+</div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

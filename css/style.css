@@ -1,0 +1,86 @@
+                          /* Nav Bar  */
+
+
+.weather{
+    background-color: #1E202B;
+    width: 100%;
+    height: 150px;
+    
+}
+.nav .nav-item{
+    color: white;
+    padding-left: 10px;
+ 
+
+}
+.nav .nav-item1 {
+    border: 3px solid #0DCAF0 ;
+    border-radius: 30px;
+}
+.nav .nav-item .nav-link:hover{
+    border: 3px solid #0DCAF0 ;
+    border-radius: 30px;
+    transition: 0.3s ease;
+}
+h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.icon-weather i {
+font-size: 50px;
+margin-left: 100px;
+margin-top: 0px;
+}
+                                        /* section 2                         */
+
+  .content-weather{
+    position: relative;
+  
+  }
+.content-weather .card {
+    background-color:rgba(0, 0, 0, 0.6);
+
+    position:absolute;
+    top: 100px;
+    left: 100px;
+    right: 100px;
+}
+
+.card1 .today-weather {
+    background-color: rgba(0, 0, 0, 0.4)
+}
+.content-weather .next_day_name{
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+                                        /* section 3                         */
+.Content-body3{
+    background-color: #262936;
+    width: 100%;
+    height: 200px;
+}
+.icon-social  .social-border i{
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px;
+    width: 40px;
+    height: 40px;
+    border: 3px solid #0078FF;
+    border-radius: 60px;
+  } 
+  .icon-social  .social-border  i:hover{
+    border: 3px solid  #262936;
+    background-color: #262936 ;
+    transition-duration: 0.3s;
+  }
